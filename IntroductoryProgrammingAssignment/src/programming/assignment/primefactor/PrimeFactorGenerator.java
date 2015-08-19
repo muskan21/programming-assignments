@@ -18,26 +18,40 @@ public class PrimeFactorGenerator {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Enter the no. to generate prime factors : ");
             int num = Integer.parseInt(br.readLine());
-            int numb=num;
-            int dividend = 2;
-            while(numb != 0) {
-                if(!n.isDivisible(numb,dividend)) {
-                    dividend++;
-                }
-                else {
-                    list.add(dividend);
-                    while(numb%dividend == 0) {
-                        numb/=dividend;
-                    }
-                    if(numb == 1)
-                        break;
-                }
+            list = generate(num);
+            if(list.isEmpty()) {
+                System.out.println("Empty List.");
             }
-            for(int i=0;i<list.size(); i++) {
-                System.out.print(list.get(i)+"\t");
+            else {
+                for (int i = 0; i < list.size(); i++) {
+                    System.out.print(list.get(i) + "\t");
+                }
             }
         } catch(IOException e) {
             System.err.println(e.getMessage());
         }
+    }
+
+    private static ArrayList<Integer> generate(int num) {
+        NumberUtility n = new NumberUtility();
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        int numb=num;
+        int dividend = 2;
+        while(numb != 0) {
+            if(numb == 1)
+                break;
+            if(!n.isDivisible(numb,dividend)) {
+                dividend++;
+            }
+            else {
+                list.add(dividend);
+                while(numb%dividend == 0) {
+                    numb/=dividend;
+                }
+                if(numb == 1)
+                    break;
+            }
+        }
+        return list;
     }
 }

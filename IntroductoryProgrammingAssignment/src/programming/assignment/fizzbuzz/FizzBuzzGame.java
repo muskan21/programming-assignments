@@ -5,6 +5,10 @@ package programming.assignment.fizzbuzz;
  */
 public class FizzBuzzGame {
     public static void main(String[] args){
+        FizzBuzz();
+    }
+
+    private static void FizzBuzz() {
         NumberUtility n = new NumberUtility();
         int i;
         boolean flag3=false, flag5=false;
