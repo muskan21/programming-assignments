@@ -22,50 +22,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainRight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programming/assignment/triangle/MainRight.java">
+      <file leaf-file-name="NumberUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programming/assignment/fizzbuzz/NumberUtility.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programming/assignment/diamond/MainTriangle.java">
+      <file leaf-file-name="FizzBuzzGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programming/assignment/fizzbuzz/FizzBuzzGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainDiamond.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programming/assignment/diamond/MainDiamond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainName.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programming/assignment/diamond/MainName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62633455">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="1.227758">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,6 +69,8 @@
         <option value="$PROJECT_DIR$/src/programming/assignment/diamond/MainTriangle.java" />
         <option value="$PROJECT_DIR$/src/programming/assignment/diamond/MainDiamond.java" />
         <option value="$PROJECT_DIR$/src/programming/assignment/diamond/MainName.java" />
+        <option value="$PROJECT_DIR$/src/programming/assignment/fizzbuzz/NumberUtility.java" />
+        <option value="$PROJECT_DIR$/src/programming/assignment/fizzbuzz/FizzBuzzGame.java" />
       </list>
     </option>
   </component>
@@ -189,7 +163,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diamond" />
+              <option name="myItemId" value="fizzbuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,27 +179,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="Application.MainName">
-    <configuration default="false" name="MainVertical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="programming.assignment.triangle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="programming.assignment.triangle.MainVertical" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IntroductoryProgrammingAssignment" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FizzBuzzGame">
     <configuration default="false" name="MainRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -294,6 +248,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="programming.assignment.diamond.MainName" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IntroductoryProgrammingAssignment" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="programming.assignment.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="programming.assignment.fizzbuzz.FizzBuzzGame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -475,19 +449,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainVertical" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainRight" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainTriangle" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainDiamond" />
-      <item index="5" class="java.lang.String" itemvalue="Application.MainName" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainRight" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainTriangle" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainDiamond" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainName" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FizzBuzzGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainName" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainDiamond" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainTriangle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainRight" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainVertical" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FizzBuzzGame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainName" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainDiamond" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainTriangle" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainRight" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +476,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="667" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="667" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -636,6 +610,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programming/assignment/fizzbuzz/NumberUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programming/assignment/fizzbuzz/FizzBuzzGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.227758">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
