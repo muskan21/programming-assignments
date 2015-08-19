@@ -17,4 +17,11 @@ public class NumberUtility {
         else
             return false;
     }
+
+    public boolean isDivisible(int num, int div) {
+        if(num%div == 0)
+            return true;
+        else
+            return false;
+    }
 }
